@@ -13,10 +13,6 @@ DB_CONNECTION_STR = 'postgresql://airflow:airflow@postgres:5432/airflow' # Using
 def extract_data():
     """Task 2: Connect to S3 and download data"""
     try:
-        # NOTE: In a real test, ensure you have AWS credentials set in environment variables
-        # s3 = boto3.client('s3')
-        # s3.download_file(S3_BUCKET, S3_FILE_KEY, LOCAL_FILE_PATH)
-        
         # MOCKING EXTRACTION for the test if you don't have real S3 keys:
         print("Mocking S3 download...")
         # Create a dummy CSV for demonstration
