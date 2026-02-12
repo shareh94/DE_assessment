@@ -7,7 +7,7 @@ services:
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
     ports:
-      - "5432:5432"  # Expose for your Data Warehouse as well
+      - "5432:5432"
 
   webserver:
     image: apache/airflow:2.7.1
