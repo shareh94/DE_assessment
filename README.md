@@ -73,4 +73,4 @@ The pipeline is designed to:
 
 2) Verify Data in Warehouse
 - To check if the data was actually loaded into the Postgres database:
-  "docker compose exec postgres psql -U airflow -c "SELECT * FROM daily_category_sales;"
+  "docker compose exec postgres psql -U airflow -c "SELECT * FROM daily_category_sales;""
