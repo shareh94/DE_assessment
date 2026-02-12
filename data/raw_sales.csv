@@ -1,0 +1,6 @@
+product_id,category,amount,date
+101.0,Electronics,100.0,2023-10-01
+102.0,Home,50.0,2023-10-01
+101.0,Electronics,120.0,2023-10-01
+103.0,Books,15.0,2023-10-01
+,Home,60.0,2023-10-01
