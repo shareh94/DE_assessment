@@ -1,8 +1,8 @@
 **Daily Sales ETL Pipeline**
 
-This project implements a Data Engineering pipeline to automate the extraction, transformation, and loading (ETL) of daily sales data using **Apache Airflow**, **Docker**, and **Python**.
+This assessment implements a Data Engineering pipeline to automate the extraction, transformation, and loading (ETL) of daily sales data using **Apache Airflow**, **Docker**, and **Python**.
 
-**Project Overview**
+**Assessment Overview**
 
 The pipeline is designed to:
 1.  **Extract:** Download daily sales CSV files (mocked S3 download).
